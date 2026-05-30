@@ -1,0 +1,20 @@
+# Render Blueprint — deploy with: Dashboard → New → Blueprint → connect repo
+services:
+  - type: web
+    name: bellshire-backend
+    runtime: python
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false        # set this manually in the Render dashboard
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: VOICE
+        value: shimmer
+      - key: PYTHON_VERSION
+        value: "3.13"
