@@ -791,49 +791,158 @@ def get_tour(property_id: str, mode: str = "tour") -> dict | None:
 
 
 # ──────────────────────────────────────────────────────────────────────────
-# PHOTO TAGS — every gallery photo of a listing classified by room/area, for
-# the voice assistant, chatbot and tours to surface a SPECIFIC photo on request.
-# Numbers are 1-based, matching the file name N-web-or-mls-<slug>.jpg on
-# bellshireinc.com. (Frontend PROPERTY_PHOTO_TAGS uses the same set, 0-based.)
+# PHOTO TAGS — gallery photos classified by room/area, so the voice assistant,
+# chatbot and tours can surface a SPECIFIC photo on request. PHOTO_GALLERIES
+# mirrors the site gallery order; PHOTO_TAGS holds 0-based indices into it
+# (identical to the frontend PROPERTY_PHOTO_TAGS).  Tagged: 218, 312, 1224.
 # ──────────────────────────────────────────────────────────────────────────
-PHOTO_BASE = {
-    "1224": "https://bellshireinc.com/wp-content/uploads/2025/06/{n}-web-or-mls-1224-108th-ave-se.jpg",
+PHOTO_GALLERIES = {
+    "218": [
+        "https://bellshireinc.com/wp-content/uploads/2025/06/002_2-print-218-109th-ave-se_196-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/005_5-print-218-109th-ave-se_894-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/006_6-print-218-109th-ave-se_260-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/007_7-print-218-109th-ave-se_690-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/009_9-print-218-109th-ave-se_918-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/010_10-print-218-109th-ave-se_285-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/011_11-print-218-109th-ave-se_501-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/013_13-print-218-109th-ave-se_61-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/014_14-print-218-109th-ave-se_351-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/019_19-print-218-109th-ave-se_713-scaled.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/023_23-print-218-109th-ave-se_664-scaled.jpg"
+    ],
+    "312": [
+        "https://bellshireinc.com/wp-content/uploads/2025/07/1-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/2-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/3-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/4-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/5-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/6-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/7-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/8-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/9-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/10-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/11-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/12-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/13-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/14-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/15-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/17-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/18-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/19-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/20-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/21-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/22-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/23-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/24-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/25-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/26-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/27-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/28-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/29-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/30-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/31-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/33-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/34-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/35-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/36-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/37-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/38-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/39-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/40-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/41-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/42-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/43-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/44-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/45-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/46-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/47-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/48-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/49-web-or-mls-312-160th-ave-ne.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/07/50-web-or-mls-312-160th-ave-ne.jpg"
+    ],
+    "1224": [
+        "https://bellshireinc.com/wp-content/uploads/2025/06/1-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/2-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/3-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/4-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/5-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/6-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/7-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/8-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/9-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/10-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/11-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/12-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/13-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/14-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/15-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/16-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/17-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/18-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/19-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/20-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/21-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/22-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/23-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/24-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/25-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/26-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/27-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/28-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/29-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/30-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/31-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/32-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/33-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/34-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/35-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/36-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/37-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/38-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/39-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/40-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/41-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/42-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/43-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/44-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/45-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/46-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/47-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/48-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/49-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/50-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/51-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/52-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/53-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/54-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/55-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/56-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/57-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/58-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/59-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/60-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/61-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/62-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/63-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/64-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/65-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/66-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/67-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/68-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/69-web-or-mls-1224-108th-ave-se.jpg",
+        "https://bellshireinc.com/wp-content/uploads/2025/06/70-web-or-mls-1224-108th-ave-se.jpg"
+    ],
 }
 
 PHOTO_TAGS = {
-    # 1224 108th Ave SE — 70 photos, reviewed individually.
-    "1224": {
-        "exterior_facade":    [1, 2, 3, 4, 5],   # front / street / twilight elevations
-        "house_front":        [2, 3, 4],
-        "house_back":         [44],               # rear/side daytime elevation
-        "backyard_patio":     [45, 59],           # main-level deck / walk-out (shown via the rooms that open to it)
-        "entry":              [6, 9, 14, 15, 44], # front door + foyer
-        "study_office":       [10],               # separate study (кабінет)
-        "guest_bath":         [12],               # main-floor powder / guest bath
-        "great_room_living":  [7, 8, 16, 17],
-        "kitchen":            [18, 19, 20, 21, 23, 24, 51, 58, 61, 62],
-        "wine_cellar":        [13, 64],
-        "stairs":             [32, 50, 63, 65, 66],
-        "pantry":             [22, 54],
-        "guest_bedroom_main": [25],               # main-floor guest bedroom (best match)
-        "master_bedroom":     [27, 33, 34],
-        "master_bath":        [35, 36, 37, 48, 68, 70],
-        "walk_in_closet":     [43],
-        "laundry":            [42, 47],
-        "bedrooms":           [25, 30, 39],
-        "bathrooms":          [26, 28, 29, 31, 38, 40, 41, 49, 53],
-        "lower_level":        [50, 52, 55, 56, 57, 59, 60, 67],  # daylit basement
-        "second_kitchen_wetbar": [56, 57, 60],
-        "dining":             [11, 46],
-    },
+    "218": {"exterior": [0], "front": [0], "garage": [0], "entry": [2, 7], "stairs": [2], "living": [3, 4], "great_room": [3, 4], "kitchen": [5, 8, 9], "wet_bar": [8], "dining": [1, 6, 7], "backyard": [10], "patio": [10], "deck": [10]},
+    "312": {"exterior": [0, 1, 39, 40, 41], "front": [0, 1, 40, 41], "garage": [0, 40], "aerial": [42, 43, 44, 45, 46], "entry": [2, 3, 36], "living": [4, 7, 8, 21, 22, 47], "great_room": [5, 6], "family": [22], "stairs": [5, 6, 20], "kitchen": [12, 14, 15, 16, 17], "dining": [13, 18], "guest_bath": [19], "powder": [19], "half_bath": [19], "bedroom": [23, 32, 34], "master": [25, 26], "master_bedroom": [25, 26], "master_bath": [27, 28], "master_bathroom": [27, 28], "bathroom": [24, 29, 33, 35], "bathrooms": [24, 29, 33, 35], "walk_in_closet": [30, 31], "closet": [30, 31], "backyard": [9, 10, 11, 37, 38], "patio": [10, 11, 37], "deck": [37], "view": [43, 44, 45, 46]},
+    "1224": {"exterior": [0, 1, 2, 3, 4, 43], "front": [1, 2, 3], "garage": [2], "entry": [5, 8, 13, 14, 43], "foyer": [8, 13, 14], "office": [9], "study": [9], "living": [6, 7, 15, 16], "great_room": [6, 7, 16], "family": [44, 54, 58], "family_room": [44, 54, 58], "dining": [10, 45], "kitchen": [17, 18, 19, 20, 22, 23, 50, 57, 60, 61], "pantry": [21, 53], "wine_cellar": [12, 63], "wine": [12, 63], "stairs": [31, 49, 62, 64, 65], "staircase": [31, 49, 62, 64, 65], "guest_bath": [11], "powder": [11], "half_bath": [11], "bedroom": [24, 29, 38], "guest_bedroom": [24], "master": [26, 32, 33], "master_bedroom": [26, 32, 33], "master_bath": [34, 35, 36, 47, 67, 69], "master_bathroom": [34, 35, 36, 47, 67, 69], "bathroom": [25, 27, 28, 30, 37, 39, 40, 48, 52], "bathrooms": [25, 27, 28, 30, 37, 39, 40, 48, 52], "closet": [42], "walk_in_closet": [42], "laundry": [41, 46], "basement": [49, 51, 54, 55, 56, 58, 59, 66], "lower_level": [49, 51, 54, 55, 56, 58, 59, 66], "wet_bar": [55, 59], "second_kitchen": [55, 56], "backyard": [44, 58], "patio": [44, 58], "deck": [44, 58], "view": [9, 36]},
 }
-
 
 def get_photos(property_id: str, category: str):
     """Return full photo URLs for a tagged room/area of a property (or [])."""
+    gallery = PHOTO_GALLERIES.get(property_id) or []
     tags = PHOTO_TAGS.get(property_id) or {}
-    nums = tags.get((category or "").strip().lower().replace(" ", "_")) or []
-    base = PHOTO_BASE.get(property_id)
-    if not base:
-        return []
-    return [base.format(n=n) for n in nums]
+    key = (category or '').strip().lower().replace(' ', '_').replace('-', '_')
+    return [gallery[i] for i in (tags.get(key) or []) if 0 <= i < len(gallery)]
