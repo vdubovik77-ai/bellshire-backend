@@ -41,8 +41,8 @@ PROPERTIES = {
             "lot": "0.21 acre", "yearBuilt": 2026, "style": "Contemporary Northwest",
         },
         "schools": [
-            {"name": "Enatai Elementary",      "rating": 10, "distance": "0.4 mi", "grades": "K-5",  "kind": "public"},
-            {"name": "Chinook Middle School",  "rating": 9,  "distance": "1.2 mi", "grades": "6-8",  "kind": "public"},
+            {"name": "Enatai Elementary",      "rating": 8,  "distance": "0.4 mi", "grades": "K-5",  "kind": "public"},
+            {"name": "Chinook Middle School",  "rating": 8,  "distance": "1.2 mi", "grades": "6-8",  "kind": "public"},
             {"name": "Bellevue High School",   "rating": 10, "distance": "1.8 mi", "grades": "9-12", "kind": "public"},
         ],
         "parks": [
@@ -112,16 +112,16 @@ PROPERTIES = {
             },
             {
                 "id": "schools", "title": "Top-rated Bellevue Schools",
-                "text": "Enatai Elementary — a perfect 10 on GreatSchools — sits four blocks away. "
-                        "Chinook Middle and Bellevue High are both within two miles and consistently rank in Washington's top five.",
+                "text": "Enatai Elementary — an 8 out of 10 on GreatSchools — sits four blocks away. "
+                        "Chinook Middle rates an 8, and Bellevue High earns a perfect 10 out of 10, ranking among Washington's very best.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-7.jpg",
                           "caption": "Walking distance to top schools"},
                 "map": {"center": [47.5840, -122.1980], "zoom": 14,
                         "markers": [
                             {"lat": 47.5828, "lng": -122.1990, "label": "10425 SE 20th St",     "kind": "home"},
-                            {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (10/10)", "kind": "school"},
-                            {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (9/10)",     "kind": "school"},
+                            {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                            {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
                             {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
                         ]},
             },
@@ -157,9 +157,9 @@ PROPERTIES = {
             "lot": "0.20 acre", "yearBuilt": 2024, "style": "Contemporary Modern",
         },
         "schools": [
-            {"name": "Sherwood Forest Elementary", "rating": 9,  "distance": "0.5 mi", "grades": "K-5",  "kind": "public"},
-            {"name": "Highland Middle School",      "rating": 8, "distance": "0.9 mi", "grades": "6-8",  "kind": "public"},
-            {"name": "Interlake High School",       "rating": 9, "distance": "1.4 mi", "grades": "9-12", "kind": "public"},
+            {"name": "Sherwood Forest Elementary", "rating": 5,  "distance": "0.5 mi", "grades": "K-5",  "kind": "public"},
+            {"name": "Highland Middle School",      "rating": 4, "distance": "0.9 mi", "grades": "6-8",  "kind": "public"},
+            {"name": "Interlake High School",       "rating": 10, "distance": "1.4 mi", "grades": "9-12", "kind": "public"},
         ],
         "parks": [
             {"name": "Crossroads Park",        "distance": "0.4 mi", "features": "tennis, water park, summer concerts"},
@@ -227,18 +227,19 @@ PROPERTIES = {
             },
             {
                 "id": "schools", "title": "Bellevue School District",
-                "text": "Sherwood Forest Elementary, Highland Middle, and Interlake High — all within a mile and a half "
-                        "and all rated 8 to 9 on GreatSchools. Bellevue's school district is consistently ranked the "
-                        "top public district in Washington.",
+                "text": "The headline here is Interlake High — a perfect 10 out of 10 on GreatSchools and home to a "
+                        "renowned International Baccalaureate program, placing it in Washington's top five percent. "
+                        "Sherwood Forest Elementary and Highland Middle are both within a mile, rated 5 and 4 today, "
+                        "all inside the Bellevue School District — consistently the top public district in the state.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2025/07/3-web-or-mls-312-160th-ave-ne.jpg",
                           "caption": "Top-ranked schools nearby"},
                 "map": {"center": [47.6280, -122.1380], "zoom": 14,
                         "markers": [
                             {"lat": 47.6285, "lng": -122.1356, "label": "312 160th Ave NE",        "kind": "home"},
-                            {"lat": 47.6336, "lng": -122.1349, "label": "Sherwood Forest Elem (9/10)", "kind": "school"},
-                            {"lat": 47.6203, "lng": -122.1303, "label": "Highland Middle (8/10)",      "kind": "school"},
-                            {"lat": 47.6233, "lng": -122.1599, "label": "Interlake High (9/10)",       "kind": "school"},
+                            {"lat": 47.6336, "lng": -122.1349, "label": "Sherwood Forest Elem (5/10)", "kind": "school"},
+                            {"lat": 47.6203, "lng": -122.1303, "label": "Highland Middle (4/10)",      "kind": "school"},
+                            {"lat": 47.6233, "lng": -122.1599, "label": "Interlake High (10/10)",      "kind": "school"},
                         ]},
             },
             {
@@ -273,8 +274,8 @@ PROPERTIES = {
             "lot": "0.18 acre", "yearBuilt": 2025, "style": "Urban Contemporary",
         },
         "schools": [
-            {"name": "Enatai Elementary",     "rating": 10, "distance": "0.8 mi", "grades": "K-5",  "kind": "public"},
-            {"name": "Chinook Middle School", "rating": 9,  "distance": "1.0 mi", "grades": "6-8",  "kind": "public"},
+            {"name": "Enatai Elementary",     "rating": 8,  "distance": "0.8 mi", "grades": "K-5",  "kind": "public"},
+            {"name": "Chinook Middle School", "rating": 8,  "distance": "1.0 mi", "grades": "6-8",  "kind": "public"},
             {"name": "Bellevue High School",  "rating": 10, "distance": "0.7 mi", "grades": "9-12", "kind": "public"},
         ],
         "parks": [
@@ -327,16 +328,17 @@ PROPERTIES = {
              "map": {"center": [47.6079, -122.1923], "zoom": 15,
                      "markers": [{"lat": 47.6079, "lng": -122.1923, "label": "218 109th Ave SE", "kind": "home"}]}},
             {"id": "schools", "title": "Bellevue's Top Schools",
-             "text": "Bellevue High School — a 10 on GreatSchools — is a seven-minute walk. Enatai Elementary and "
-                     "Chinook Middle are both within a mile. All three schools rank in Washington's top ten.",
+             "text": "Bellevue High School — a perfect 10 out of 10 on GreatSchools — is a seven-minute walk. Enatai "
+                     "Elementary and Chinook Middle, both rated 8 out of 10, are within a mile. All three sit in the "
+                     "Bellevue School District, the top-ranked public district in Washington.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/008_8-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Walking distance to top schools"},
              "map": {"center": [47.6060, -122.1930], "zoom": 14,
                      "markers": [
                          {"lat": 47.6079, "lng": -122.1923, "label": "218 109th Ave SE",       "kind": "home"},
-                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (10/10)", "kind": "school"},
-                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (9/10)",     "kind": "school"},
+                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
                          {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Parks, Lake & Lifestyle",
@@ -369,8 +371,8 @@ PROPERTIES = {
             "lot": "0.28 acre", "yearBuilt": 2024, "style": "Modern Estate",
         },
         "schools": [
-            {"name": "Enatai Elementary",     "rating": 10, "distance": "0.4 mi", "grades": "K-5",  "kind": "public"},
-            {"name": "Chinook Middle School", "rating": 9,  "distance": "0.7 mi", "grades": "6-8",  "kind": "public"},
+            {"name": "Enatai Elementary",     "rating": 8,  "distance": "0.4 mi", "grades": "K-5",  "kind": "public"},
+            {"name": "Chinook Middle School", "rating": 8,  "distance": "0.7 mi", "grades": "6-8",  "kind": "public"},
             {"name": "Bellevue High School",  "rating": 10, "distance": "0.5 mi", "grades": "9-12", "kind": "public"},
         ],
         "parks": [
@@ -424,16 +426,17 @@ PROPERTIES = {
              "map": {"center": [47.5961, -122.1936], "zoom": 14,
                      "markers": [{"lat": 47.5961, "lng": -122.1936, "label": "1224 108th Ave SE", "kind": "home"}]}},
             {"id": "schools", "title": "Walk to Bellevue High",
-             "text": "Bellevue High School — a 10 on GreatSchools — is a five-minute walk. Enatai Elementary and "
-                     "Chinook Middle round out a school assignment that's the most coveted in the Eastside.",
+             "text": "Bellevue High School — a perfect 10 out of 10 on GreatSchools — is a five-minute walk. Enatai "
+                     "Elementary and Chinook Middle, both rated 8 out of 10, round out a school assignment that's among "
+                     "the most coveted on the Eastside.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/4-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Top schools all within a mile"},
              "map": {"center": [47.5945, -122.1950], "zoom": 14,
                      "markers": [
                          {"lat": 47.5961, "lng": -122.1936, "label": "1224 108th Ave SE",       "kind": "home"},
-                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (10/10)", "kind": "school"},
-                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (9/10)",     "kind": "school"},
+                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
                          {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Lake, Parks, City",
@@ -465,8 +468,8 @@ PROPERTIES = {
             "lot": "0.25 acre", "yearBuilt": 2023, "style": "Transitional Modern",
         },
         "schools": [
-            {"name": "Enatai Elementary",     "rating": 10, "distance": "0.3 mi", "grades": "K-5",  "kind": "public"},
-            {"name": "Chinook Middle School", "rating": 9,  "distance": "1.0 mi", "grades": "6-8",  "kind": "public"},
+            {"name": "Enatai Elementary",     "rating": 8,  "distance": "0.3 mi", "grades": "K-5",  "kind": "public"},
+            {"name": "Chinook Middle School", "rating": 8,  "distance": "1.0 mi", "grades": "6-8",  "kind": "public"},
             {"name": "Bellevue High School",  "rating": 10, "distance": "1.0 mi", "grades": "9-12", "kind": "public"},
         ],
         "parks": [
@@ -519,16 +522,17 @@ PROPERTIES = {
              "map": {"center": [47.5915, -122.2056], "zoom": 15,
                      "markers": [{"lat": 47.5915, "lng": -122.2056, "label": "1071 102nd Pl SE", "kind": "home"}]}},
             {"id": "schools", "title": "Top-Ranked Bellevue Schools",
-             "text": "Enatai Elementary — a perfect 10 — is three blocks away. Chinook Middle and Bellevue High are both "
-                     "within a mile. Walkable schools, top-tier ratings — the Eastside's golden combination.",
+             "text": "Enatai Elementary — an 8 out of 10 — is three blocks away. Chinook Middle also rates an 8, and "
+                     "Bellevue High earns a perfect 10, both within a mile. Walkable schools, top-tier ratings — the "
+                     "Eastside's golden combination.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_23.jpg",
                        "caption": "Walk to top schools"},
              "map": {"center": [47.5910, -122.2000], "zoom": 14,
                      "markers": [
                          {"lat": 47.5915, "lng": -122.2056, "label": "1071 102nd Pl SE",        "kind": "home"},
-                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (10/10)", "kind": "school"},
-                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (9/10)",     "kind": "school"},
+                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
                          {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Lake, Parks, City",
@@ -560,9 +564,9 @@ PROPERTIES = {
             "lot": "0.10 acre", "yearBuilt": 2023, "style": "Modern Craftsman",
         },
         "schools": [
-            {"name": "B.F. Day Elementary",       "rating": 7, "distance": "0.5 mi", "grades": "K-5",  "kind": "public"},
+            {"name": "B.F. Day Elementary",       "rating": 9, "distance": "0.5 mi", "grades": "K-5",  "kind": "public"},
             {"name": "Hamilton International MS", "rating": 8, "distance": "0.4 mi", "grades": "6-8",  "kind": "public"},
-            {"name": "Lincoln High School",        "rating": 8, "distance": "1.0 mi", "grades": "9-12", "kind": "public"},
+            {"name": "Lincoln High School",        "rating": 10, "distance": "1.0 mi", "grades": "9-12", "kind": "public"},
         ],
         "parks": [
             {"name": "Wallingford Playfield",  "distance": "0.5 mi", "features": "playground, tennis, off-leash hours"},
@@ -616,17 +620,18 @@ PROPERTIES = {
              "map": {"center": [47.6648, -122.3429], "zoom": 15,
                      "markers": [{"lat": 47.6648, "lng": -122.3429, "label": "1305 N 50th St", "kind": "home"}]}},
             {"id": "schools", "title": "Seattle Schools",
-             "text": "Hamilton International Middle School is four blocks away — a designated IB World School. "
-                     "B.F. Day Elementary and the new Lincoln High School complete the catchment.",
+             "text": "Hamilton International Middle School is four blocks away — an 8 out of 10 on GreatSchools and a "
+                     "designated IB World School. B.F. Day Elementary rates a 9, and the new Lincoln High School earns a "
+                     "perfect 10, completing the catchment.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_27-2.jpg",
                        "caption": "Walk-to-school neighborhood"},
              "map": {"center": [47.6640, -122.3450], "zoom": 14,
                      "markers": [
                          {"lat": 47.6648, "lng": -122.3429, "label": "1305 N 50th St",            "kind": "home"},
-                         {"lat": 47.6589, "lng": -122.3503, "label": "B.F. Day Elementary (7/10)",  "kind": "school"},
+                         {"lat": 47.6589, "lng": -122.3503, "label": "B.F. Day Elementary (9/10)",  "kind": "school"},
                          {"lat": 47.6692, "lng": -122.3460, "label": "Hamilton International (8/10)","kind": "school"},
-                         {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (8/10)",         "kind": "school"},
+                         {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (10/10)",        "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Parks & Wallingford Life",
              "text": "Gas Works Park is a nine-minute walk — Seattle's most iconic skyline view. Green Lake Park is a "
@@ -657,9 +662,9 @@ PROPERTIES = {
             "lot": "0.09 acre", "yearBuilt": 2022, "style": "Contemporary Craftsman",
         },
         "schools": [
-            {"name": "B.F. Day Elementary",       "rating": 7, "distance": "0.5 mi", "grades": "K-5",  "kind": "public"},
+            {"name": "B.F. Day Elementary",       "rating": 9, "distance": "0.5 mi", "grades": "K-5",  "kind": "public"},
             {"name": "Hamilton International MS", "rating": 8, "distance": "0.4 mi", "grades": "6-8",  "kind": "public"},
-            {"name": "Lincoln High School",        "rating": 8, "distance": "0.9 mi", "grades": "9-12", "kind": "public"},
+            {"name": "Lincoln High School",        "rating": 10, "distance": "0.9 mi", "grades": "9-12", "kind": "public"},
         ],
         "parks": [
             {"name": "Wallingford Playfield",     "distance": "0.4 mi", "features": "playground, tennis"},
@@ -711,17 +716,18 @@ PROPERTIES = {
              "map": {"center": [47.6663, -122.3434], "zoom": 15,
                      "markers": [{"lat": 47.6663, "lng": -122.3434, "label": "4920 Stone Ave N", "kind": "home"}]}},
             {"id": "schools", "title": "Schools You Can Walk To",
-             "text": "Hamilton International Middle School is four blocks away. B.F. Day Elementary and Lincoln High "
-                     "complete the catchment — all three within a mile and all walkable.",
+             "text": "Hamilton International Middle School — an 8 out of 10 IB World School — is four blocks away. "
+                     "B.F. Day Elementary rates a 9 and Lincoln High a perfect 10, completing the catchment — all three "
+                     "within a mile and all walkable.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_11-1.jpg",
                        "caption": "Schools nearby"},
              "map": {"center": [47.6650, -122.3450], "zoom": 14,
                      "markers": [
                          {"lat": 47.6663, "lng": -122.3434, "label": "4920 Stone Ave N",         "kind": "home"},
-                         {"lat": 47.6589, "lng": -122.3503, "label": "B.F. Day Elementary (7/10)",  "kind": "school"},
+                         {"lat": 47.6589, "lng": -122.3503, "label": "B.F. Day Elementary (9/10)",  "kind": "school"},
                          {"lat": 47.6692, "lng": -122.3460, "label": "Hamilton International (8/10)","kind": "school"},
-                         {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (8/10)",         "kind": "school"},
+                         {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (10/10)",        "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Parks & Wallingford Life",
              "text": "Gas Works Park, Green Lake, and Wallingford Playfield are all within a mile. The Sunday farmer's "
