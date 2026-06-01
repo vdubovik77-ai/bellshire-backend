@@ -946,3 +946,26 @@ def get_photos(property_id: str, category: str):
     tags = PHOTO_TAGS.get(property_id) or {}
     key = (category or '').strip().lower().replace(' ', '_').replace('-', '_')
     return [gallery[i] for i in (tags.get(key) or []) if 0 <= i < len(gallery)]
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# VIDEO CHAPTERS — seconds into each listing's cinematic tour video where a
+# given room/area begins, so the assistant can seek the video on request
+# ("show me the kitchen in the video"). Set by frame-by-frame review.
+# ──────────────────────────────────────────────────────────────────────────
+VIDEO_CHAPTERS = {
+    "1224": {
+        "view": 0, "exterior": 4, "living": 16, "great_room": 16,
+        "wine_cellar": 22, "wine": 22, "kitchen": 26, "dining": 30,
+        "master": 44, "master_bedroom": 44, "master_bath": 50, "bathroom": 50,
+        "closet": 58, "walk_in_closet": 58, "laundry": 60, "bedroom": 64,
+        "family": 74, "family_room": 74, "lower_level": 80, "basement": 80,
+        "second_kitchen": 80, "wet_bar": 82, "backyard": 90, "patio": 90, "deck": 98,
+    },
+}
+
+
+def get_video_chapter(property_id: str, category: str):
+    """Return the start second for a room/area in the property's tour video (or None)."""
+    ch = VIDEO_CHAPTERS.get(property_id) or {}
+    return ch.get((category or "").strip().lower().replace(" ", "_").replace("-", "_"))
