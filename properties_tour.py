@@ -33,7 +33,7 @@ PROPERTIES = {
         "address": "10425 SE 20th St, Bellevue WA 98004",
         "neighborhood": "Enatai",
         "city": "Bellevue",
-        "coords": [47.5828, -122.1990],
+        "coords": [47.59232, -122.20016],
         "specs": {
             "status": "Presale",
             "price": "Presale",
@@ -106,8 +106,8 @@ PROPERTIES = {
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-6.jpg",
                           "caption": "Aerial view of Enatai"},
-                "map": {"center": [47.5828, -122.1990], "zoom": 15,
-                        "markers": [{"lat": 47.5828, "lng": -122.1990, "label": "10425 SE 20th St", "kind": "home"}]},
+                "map": {"center": [47.59232, -122.20016], "zoom": 15,
+                        "markers": [{"lat": 47.59232, "lng": -122.20016, "label": "10425 SE 20th St", "kind": "home"}]},
             },
             {
                 "id": "schools", "title": "Top-rated Bellevue Schools",
@@ -118,10 +118,10 @@ PROPERTIES = {
                           "caption": "Walking distance to top schools"},
                 "map": {"center": [47.5840, -122.1980], "zoom": 14,
                         "markers": [
-                            {"lat": 47.5828, "lng": -122.1990, "label": "10425 SE 20th St",     "kind": "home"},
-                            {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
-                            {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
-                            {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
+                            {"lat": 47.59232, "lng": -122.20016, "label": "10425 SE 20th St",     "kind": "home"},
+                            {"lat": 47.58907, "lng": -122.19822, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                            {"lat": 47.62783, "lng": -122.21085, "label": "Chinook Middle (8/10)",     "kind": "school"},
+                            {"lat": 47.60423, "lng": -122.19843, "label": "Bellevue High (10/10)",     "kind": "school"},
                         ]},
             },
             {
@@ -134,7 +134,7 @@ PROPERTIES = {
                           "caption": "Lake Washington at your doorstep"},
                 "map": {"center": [47.5830, -122.1900], "zoom": 13,
                         "markers": [
-                            {"lat": 47.5828, "lng": -122.1990, "label": "10425 SE 20th St",        "kind": "home"},
+                            {"lat": 47.59232, "lng": -122.20016, "label": "10425 SE 20th St",        "kind": "home"},
                             {"lat": 47.5871, "lng": -122.1957, "label": "Enatai Beach Park",         "kind": "park"},
                             {"lat": 47.5856, "lng": -122.1820, "label": "Mercer Slough Nature Park", "kind": "park"},
                             {"lat": 47.5778, "lng": -122.2078, "label": "Chism Beach Park",          "kind": "park"},
@@ -149,7 +149,7 @@ PROPERTIES = {
         "address": "312 160th Ave NE, Bellevue WA 98008",
         "neighborhood": "Crossroads / Bel-Red",
         "city": "Bellevue",
-        "coords": [47.6285, -122.1356],
+        "coords": [47.61298, -122.12665],
         "specs": {
             "status": "Pending",
             "price": "$3,158,000",
@@ -221,8 +221,8 @@ PROPERTIES = {
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2025/07/2-web-or-mls-312-160th-ave-ne.jpg",
                           "caption": "Aerial — Crossroads neighborhood"},
-                "map": {"center": [47.6285, -122.1356], "zoom": 14,
-                        "markers": [{"lat": 47.6285, "lng": -122.1356, "label": "312 160th Ave NE", "kind": "home"}]},
+                "map": {"center": [47.61298, -122.12665], "zoom": 14,
+                        "markers": [{"lat": 47.61298, "lng": -122.12665, "label": "312 160th Ave NE", "kind": "home"}]},
             },
             {
                 "id": "schools", "title": "Bellevue School District",
@@ -235,10 +235,10 @@ PROPERTIES = {
                           "caption": "Top-ranked schools nearby"},
                 "map": {"center": [47.6280, -122.1380], "zoom": 14,
                         "markers": [
-                            {"lat": 47.6285, "lng": -122.1356, "label": "312 160th Ave NE",        "kind": "home"},
-                            {"lat": 47.6336, "lng": -122.1349, "label": "Sherwood Forest Elem (5/10)", "kind": "school"},
-                            {"lat": 47.6203, "lng": -122.1303, "label": "Highland Middle (4/10)",      "kind": "school"},
-                            {"lat": 47.6233, "lng": -122.1599, "label": "Interlake High (10/10)",      "kind": "school"},
+                            {"lat": 47.61298, "lng": -122.12665, "label": "312 160th Ave NE",        "kind": "home"},
+                            {"lat": 47.63039, "lng": -122.12027, "label": "Sherwood Forest Elem (5/10)", "kind": "school"},
+                            {"lat": 47.62578, "lng": -122.14028, "label": "Highland Middle (4/10)",      "kind": "school"},
+                            {"lat": 47.63017, "lng": -122.12443, "label": "Interlake High (10/10)",      "kind": "school"},
                         ]},
             },
             {
@@ -251,7 +251,7 @@ PROPERTIES = {
                           "caption": "Family Bellevue living"},
                 "map": {"center": [47.6285, -122.1400], "zoom": 13,
                         "markers": [
-                            {"lat": 47.6285, "lng": -122.1356, "label": "312 160th Ave NE",   "kind": "home"},
+                            {"lat": 47.61298, "lng": -122.12665, "label": "312 160th Ave NE",   "kind": "home"},
                             {"lat": 47.6309, "lng": -122.1322, "label": "Crossroads Park",     "kind": "park"},
                             {"lat": 47.6256, "lng": -122.1450, "label": "Robinswood Park",     "kind": "park"},
                             {"lat": 47.6173, "lng": -122.1530, "label": "Wilburton Hill Park", "kind": "park"},
@@ -266,7 +266,7 @@ PROPERTIES = {
         "address": "218 109th Avenue SE, Bellevue WA 98004",
         "neighborhood": "Downtown Bellevue / Surrey Downs",
         "city": "Bellevue",
-        "coords": [47.6079, -122.1923],
+        "coords": [47.60744, -122.19480],
         "specs": {
             "status": "Pending",
             "price": "$4,500,000",
@@ -327,8 +327,8 @@ PROPERTIES = {
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/007_7-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Surrey Downs neighborhood"},
-             "map": {"center": [47.6079, -122.1923], "zoom": 15,
-                     "markers": [{"lat": 47.6079, "lng": -122.1923, "label": "218 109th Ave SE", "kind": "home"}]}},
+             "map": {"center": [47.60744, -122.19480], "zoom": 15,
+                     "markers": [{"lat": 47.60744, "lng": -122.19480, "label": "218 109th Ave SE", "kind": "home"}]}},
             {"id": "schools", "title": "Bellevue's Top Schools",
              "text": "Bellevue High School — a perfect 10 out of 10 on GreatSchools — is a seven-minute walk. Enatai "
                      "Elementary and Chinook Middle, both rated 8 out of 10, are within a mile. All three sit in the "
@@ -338,10 +338,10 @@ PROPERTIES = {
                        "caption": "Walking distance to top schools"},
              "map": {"center": [47.6060, -122.1930], "zoom": 14,
                      "markers": [
-                         {"lat": 47.6079, "lng": -122.1923, "label": "218 109th Ave SE",       "kind": "home"},
-                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
-                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
-                         {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
+                         {"lat": 47.60744, "lng": -122.19480, "label": "218 109th Ave SE",       "kind": "home"},
+                         {"lat": 47.58907, "lng": -122.19822, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                         {"lat": 47.62783, "lng": -122.21085, "label": "Chinook Middle (8/10)",     "kind": "school"},
+                         {"lat": 47.60423, "lng": -122.19843, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Parks, Lake & Lifestyle",
              "text": "Surrey Downs Park is around the corner. Bellevue Downtown Park and Meydenbauer Bay Park's "
@@ -351,7 +351,7 @@ PROPERTIES = {
                        "caption": "Urban Bellevue lifestyle"},
              "map": {"center": [47.6070, -122.1920], "zoom": 14,
                      "markers": [
-                         {"lat": 47.6079, "lng": -122.1923, "label": "218 109th Ave SE",      "kind": "home"},
+                         {"lat": 47.60744, "lng": -122.19480, "label": "218 109th Ave SE",      "kind": "home"},
                          {"lat": 47.6093, "lng": -122.1894, "label": "Surrey Downs Park",      "kind": "park"},
                          {"lat": 47.6133, "lng": -122.1974, "label": "Downtown Park",          "kind": "park"},
                          {"lat": 47.6188, "lng": -122.2020, "label": "Meydenbauer Bay Park",   "kind": "park"},
@@ -365,7 +365,7 @@ PROPERTIES = {
         "address": "1224 108th Ave SE, Bellevue WA 98004",
         "neighborhood": "Enatai / Surrey Downs",
         "city": "Bellevue",
-        "coords": [47.5961, -122.1936],
+        "coords": [47.59851, -122.19611],
         "specs": {
             "status": "Sold",
             "price": "$6,450,000",
@@ -427,8 +427,8 @@ PROPERTIES = {
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/2-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Enatai aerial"},
-             "map": {"center": [47.5961, -122.1936], "zoom": 14,
-                     "markers": [{"lat": 47.5961, "lng": -122.1936, "label": "1224 108th Ave SE", "kind": "home"}]}},
+             "map": {"center": [47.59851, -122.19611], "zoom": 14,
+                     "markers": [{"lat": 47.59851, "lng": -122.19611, "label": "1224 108th Ave SE", "kind": "home"}]}},
             {"id": "schools", "title": "Walk to Bellevue High",
              "text": "Bellevue High School — a perfect 10 out of 10 on GreatSchools — is a five-minute walk. Enatai "
                      "Elementary and Chinook Middle, both rated 8 out of 10, round out a school assignment that's among "
@@ -438,10 +438,10 @@ PROPERTIES = {
                        "caption": "Top schools all within a mile"},
              "map": {"center": [47.5945, -122.1950], "zoom": 14,
                      "markers": [
-                         {"lat": 47.5961, "lng": -122.1936, "label": "1224 108th Ave SE",       "kind": "home"},
-                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
-                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
-                         {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
+                         {"lat": 47.59851, "lng": -122.19611, "label": "1224 108th Ave SE",       "kind": "home"},
+                         {"lat": 47.58907, "lng": -122.19822, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                         {"lat": 47.62783, "lng": -122.21085, "label": "Chinook Middle (8/10)",     "kind": "school"},
+                         {"lat": 47.60423, "lng": -122.19843, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Lake, Parks, City",
              "text": "Mercer Slough Nature Park's wetlands and trails are nearby, with Bellefields Nature Park and "
@@ -451,7 +451,7 @@ PROPERTIES = {
                        "caption": "Lakeside lifestyle"},
              "map": {"center": [47.5955, -122.1900], "zoom": 13,
                      "markers": [
-                         {"lat": 47.5961, "lng": -122.1936, "label": "1224 108th Ave SE",        "kind": "home"},
+                         {"lat": 47.59851, "lng": -122.19611, "label": "1224 108th Ave SE",        "kind": "home"},
                          {"lat": 47.5990, "lng": -122.1875, "label": "Bellefields Nature Park",   "kind": "park"},
                          {"lat": 47.5856, "lng": -122.1820, "label": "Mercer Slough Nature Park", "kind": "park"},
                          {"lat": 47.6188, "lng": -122.2020, "label": "Meydenbauer Bay Park",      "kind": "park"},
@@ -465,7 +465,7 @@ PROPERTIES = {
         "address": "1071 102nd Place SE, Bellevue WA 98004",
         "neighborhood": "Enatai",
         "city": "Bellevue",
-        "coords": [47.5915, -122.2056],
+        "coords": [47.60042, -122.20449],
         "specs": {
             "status": "Sold",
             "price": "Price on request",
@@ -525,8 +525,8 @@ PROPERTIES = {
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_22.jpg",
                        "caption": "Enatai from above"},
-             "map": {"center": [47.5915, -122.2056], "zoom": 15,
-                     "markers": [{"lat": 47.5915, "lng": -122.2056, "label": "1071 102nd Pl SE", "kind": "home"}]}},
+             "map": {"center": [47.60042, -122.20449], "zoom": 15,
+                     "markers": [{"lat": 47.60042, "lng": -122.20449, "label": "1071 102nd Pl SE", "kind": "home"}]}},
             {"id": "schools", "title": "Top-Ranked Bellevue Schools",
              "text": "Enatai Elementary — an 8 out of 10 — is three blocks away. Chinook Middle also rates an 8, and "
                      "Bellevue High earns a perfect 10, both within a mile. Walkable schools, top-tier ratings — the "
@@ -536,10 +536,10 @@ PROPERTIES = {
                        "caption": "Walk to top schools"},
              "map": {"center": [47.5910, -122.2000], "zoom": 14,
                      "markers": [
-                         {"lat": 47.5915, "lng": -122.2056, "label": "1071 102nd Pl SE",        "kind": "home"},
-                         {"lat": 47.5862, "lng": -122.2002, "label": "Enatai Elementary (8/10)",  "kind": "school"},
-                         {"lat": 47.5751, "lng": -122.1859, "label": "Chinook Middle (8/10)",     "kind": "school"},
-                         {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
+                         {"lat": 47.60042, "lng": -122.20449, "label": "1071 102nd Pl SE",        "kind": "home"},
+                         {"lat": 47.58907, "lng": -122.19822, "label": "Enatai Elementary (8/10)",  "kind": "school"},
+                         {"lat": 47.62783, "lng": -122.21085, "label": "Chinook Middle (8/10)",     "kind": "school"},
+                         {"lat": 47.60423, "lng": -122.19843, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Lake, Parks, City",
              "text": "Enatai Beach Park, with its swim dock and kayak launch on Lake Washington, is close by, along "
@@ -549,7 +549,7 @@ PROPERTIES = {
                        "caption": "Lake Washington nearby"},
              "map": {"center": [47.5910, -122.2000], "zoom": 13,
                      "markers": [
-                         {"lat": 47.5915, "lng": -122.2056, "label": "1071 102nd Pl SE",          "kind": "home"},
+                         {"lat": 47.60042, "lng": -122.20449, "label": "1071 102nd Pl SE",          "kind": "home"},
                          {"lat": 47.5871, "lng": -122.1957, "label": "Enatai Beach Park",          "kind": "park"},
                          {"lat": 47.5778, "lng": -122.2078, "label": "Chism Beach Park",           "kind": "park"},
                          {"lat": 47.5856, "lng": -122.1820, "label": "Mercer Slough Nature Park",  "kind": "park"},
@@ -563,7 +563,7 @@ PROPERTIES = {
         "address": "1305 North 50th Street, Seattle WA 98103",
         "neighborhood": "Woodland Park / Wallingford",
         "city": "Seattle",
-        "coords": [47.6648, -122.3429],
+        "coords": [47.66480, -122.34164],
         "specs": {
             "status": "Sold",
             "price": "$2,400,000",
@@ -625,8 +625,8 @@ PROPERTIES = {
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_23-2.jpg",
                        "caption": "Wallingford streets"},
-             "map": {"center": [47.6648, -122.3429], "zoom": 15,
-                     "markers": [{"lat": 47.6648, "lng": -122.3429, "label": "1305 N 50th St", "kind": "home"}]}},
+             "map": {"center": [47.66480, -122.34164], "zoom": 15,
+                     "markers": [{"lat": 47.66480, "lng": -122.34164, "label": "1305 N 50th St", "kind": "home"}]}},
             {"id": "schools", "title": "Seattle Schools",
              "text": "Hamilton International Middle School is four blocks away — an 8 out of 10 on GreatSchools and a "
                      "designated IB World School. B.F. Day Elementary rates a 9, and the new Lincoln High School earns a "
@@ -636,10 +636,10 @@ PROPERTIES = {
                        "caption": "Walk-to-school neighborhood"},
              "map": {"center": [47.6640, -122.3450], "zoom": 14,
                      "markers": [
-                         {"lat": 47.6648, "lng": -122.3429, "label": "1305 N 50th St",            "kind": "home"},
-                         {"lat": 47.6589, "lng": -122.3503, "label": "B.F. Day Elementary (9/10)",  "kind": "school"},
-                         {"lat": 47.6692, "lng": -122.3460, "label": "Hamilton International (8/10)","kind": "school"},
-                         {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (10/10)",        "kind": "school"},
+                         {"lat": 47.66480, "lng": -122.34164, "label": "1305 N 50th St",            "kind": "home"},
+                         {"lat": 47.65516, "lng": -122.34915, "label": "B.F. Day Elementary (9/10)",  "kind": "school"},
+                         {"lat": 47.65750, "lng": -122.33803, "label": "Hamilton International (8/10)","kind": "school"},
+                         {"lat": 47.65994, "lng": -122.33966, "label": "Lincoln High (10/10)",        "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Parks & North Seattle Life",
              "text": "Woodland Park and its zoo are right next door, Green Lake's three-mile loop is close by, and "
@@ -649,7 +649,7 @@ PROPERTIES = {
                        "caption": "Wallingford lifestyle"},
              "map": {"center": [47.6650, -122.3400], "zoom": 13,
                      "markers": [
-                         {"lat": 47.6648, "lng": -122.3429, "label": "1305 N 50th St",   "kind": "home"},
+                         {"lat": 47.66480, "lng": -122.34164, "label": "1305 N 50th St",   "kind": "home"},
                          {"lat": 47.6620, "lng": -122.3398, "label": "Wallingford Playfield", "kind": "park"},
                          {"lat": 47.6456, "lng": -122.3344, "label": "Gas Works Park",        "kind": "park"},
                          {"lat": 47.6810, "lng": -122.3300, "label": "Green Lake Park",       "kind": "park"},
@@ -663,7 +663,7 @@ PROPERTIES = {
         "address": "4920 Stone Ave N, Seattle WA 98103",
         "neighborhood": "Woodland Park / Fremont",
         "city": "Seattle",
-        "coords": [47.6663, -122.3434],
+        "coords": [47.66451, -122.34197],
         "specs": {
             "status": "Sold",
             "price": "$2,200,000",
@@ -725,8 +725,8 @@ PROPERTIES = {
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_10-1.jpg",
                        "caption": "Tangletown streets"},
-             "map": {"center": [47.6663, -122.3434], "zoom": 15,
-                     "markers": [{"lat": 47.6663, "lng": -122.3434, "label": "4920 Stone Ave N", "kind": "home"}]}},
+             "map": {"center": [47.66451, -122.34197], "zoom": 15,
+                     "markers": [{"lat": 47.66451, "lng": -122.34197, "label": "4920 Stone Ave N", "kind": "home"}]}},
             {"id": "schools", "title": "Schools You Can Walk To",
              "text": "Hamilton International Middle School — an 8 out of 10 IB World School — is four blocks away. "
                      "B.F. Day Elementary rates a 9 and Lincoln High a perfect 10, completing the catchment — all three "
@@ -736,10 +736,10 @@ PROPERTIES = {
                        "caption": "Schools nearby"},
              "map": {"center": [47.6650, -122.3450], "zoom": 14,
                      "markers": [
-                         {"lat": 47.6663, "lng": -122.3434, "label": "4920 Stone Ave N",         "kind": "home"},
-                         {"lat": 47.6589, "lng": -122.3503, "label": "B.F. Day Elementary (9/10)",  "kind": "school"},
-                         {"lat": 47.6692, "lng": -122.3460, "label": "Hamilton International (8/10)","kind": "school"},
-                         {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (10/10)",        "kind": "school"},
+                         {"lat": 47.66451, "lng": -122.34197, "label": "4920 Stone Ave N",         "kind": "home"},
+                         {"lat": 47.65516, "lng": -122.34915, "label": "B.F. Day Elementary (9/10)",  "kind": "school"},
+                         {"lat": 47.65750, "lng": -122.33803, "label": "Hamilton International (8/10)","kind": "school"},
+                         {"lat": 47.65994, "lng": -122.33966, "label": "Lincoln High (10/10)",        "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Parks & North Seattle Life",
              "text": "Woodland Park, Green Lake's three-mile loop, and Gas Works Park are all close by — and "
@@ -749,7 +749,7 @@ PROPERTIES = {
                        "caption": "Walkable Seattle lifestyle"},
              "map": {"center": [47.6660, -122.3400], "zoom": 13,
                      "markers": [
-                         {"lat": 47.6663, "lng": -122.3434, "label": "4920 Stone Ave N",  "kind": "home"},
+                         {"lat": 47.66451, "lng": -122.34197, "label": "4920 Stone Ave N",  "kind": "home"},
                          {"lat": 47.6620, "lng": -122.3398, "label": "Wallingford Playfield", "kind": "park"},
                          {"lat": 47.6456, "lng": -122.3344, "label": "Gas Works Park",        "kind": "park"},
                          {"lat": 47.6810, "lng": -122.3300, "label": "Green Lake Park",       "kind": "park"},
