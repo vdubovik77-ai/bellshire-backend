@@ -788,3 +788,52 @@ def get_tour(property_id: str, mode: str = "tour") -> dict | None:
         base["scenes"] = p["scenes"]
         base["mode"] = "tour"
     return base
+
+
+# ──────────────────────────────────────────────────────────────────────────
+# PHOTO TAGS — every gallery photo of a listing classified by room/area, for
+# the voice assistant, chatbot and tours to surface a SPECIFIC photo on request.
+# Numbers are 1-based, matching the file name N-web-or-mls-<slug>.jpg on
+# bellshireinc.com. (Frontend PROPERTY_PHOTO_TAGS uses the same set, 0-based.)
+# ──────────────────────────────────────────────────────────────────────────
+PHOTO_BASE = {
+    "1224": "https://bellshireinc.com/wp-content/uploads/2025/06/{n}-web-or-mls-1224-108th-ave-se.jpg",
+}
+
+PHOTO_TAGS = {
+    # 1224 108th Ave SE — 70 photos, reviewed individually.
+    "1224": {
+        "exterior_facade":    [1, 2, 3, 4, 5],   # front / street / twilight elevations
+        "house_front":        [2, 3, 4],
+        "house_back":         [44],               # rear/side daytime elevation
+        "backyard_patio":     [45, 59],           # main-level deck / walk-out (shown via the rooms that open to it)
+        "entry":              [6, 9, 14, 15, 44], # front door + foyer
+        "study_office":       [10],               # separate study (кабінет)
+        "guest_bath":         [12],               # main-floor powder / guest bath
+        "great_room_living":  [7, 8, 16, 17],
+        "kitchen":            [18, 19, 20, 21, 23, 24, 51, 58, 61, 62],
+        "wine_cellar":        [13, 64],
+        "stairs":             [32, 50, 63, 65, 66],
+        "pantry":             [22, 54],
+        "guest_bedroom_main": [25],               # main-floor guest bedroom (best match)
+        "master_bedroom":     [27, 33, 34],
+        "master_bath":        [35, 36, 37, 48, 68, 70],
+        "walk_in_closet":     [43],
+        "laundry":            [42, 47],
+        "bedrooms":           [25, 30, 39],
+        "bathrooms":          [26, 28, 29, 31, 38, 40, 41, 49, 53],
+        "lower_level":        [50, 52, 55, 56, 57, 59, 60, 67],  # daylit basement
+        "second_kitchen_wetbar": [56, 57, 60],
+        "dining":             [11, 46],
+    },
+}
+
+
+def get_photos(property_id: str, category: str):
+    """Return full photo URLs for a tagged room/area of a property (or [])."""
+    tags = PHOTO_TAGS.get(property_id) or {}
+    nums = tags.get((category or "").strip().lower().replace(" ", "_")) or []
+    base = PHOTO_BASE.get(property_id)
+    if not base:
+        return []
+    return [base.format(n=n) for n in nums]
