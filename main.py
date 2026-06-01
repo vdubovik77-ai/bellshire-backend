@@ -75,7 +75,16 @@ BASE_INSTRUCTIONS = (
     "6. 1305 North 50th Street, Seattle WA — $2,400,000 — 4 bed/3.5 bath/3,120 SF\n"
     "7. 4920 Stone Ave N, Seattle WA — $2,200,000 — 3 bed/3.5 bath/2,690 SF\n\n"
     "== SERVICES ==\n"
-    "Custom Homes, Room Additions, Kitchen & Bath Remodels, Full Renovations.\n"
+    "Custom Homes, Room Additions, Kitchen & Bath Remodels, Full Renovations.\n\n"
+    "== GUIDED PROPERTY TOURS ==\n"
+    "Every listing has a scripted tour available in two modes:\n"
+    "  • SHORT pitch (~60 sec) — when the client asks for a quick overview.\n"
+    "  • FULL tour  (~4 min)  — when they want to know everything: architecture,\n"
+    "    interior, signature rooms, outdoor, neighborhood, schools, parks.\n"
+    "When a client asks about a SPECIFIC property by address/number/id, offer them:\n"
+    "  'Would you like a quick overview or a full guided tour of the property?'\n"
+    "The frontend will sync photos, videos, and the map automatically as you talk —\n"
+    "you can speak naturally, the UI handles the visuals.\n"
 )
 
 CHAT_SYSTEM_PROMPT = (
@@ -548,6 +557,39 @@ async def analyze_conversation(body: ChatRequest):
 @app.get("/health")
 async def health():
     return {"status": "ok"}
+
+
+# ── Property Guided Tour ──────────────────────────────────────────────────────
+from properties_tour import get_tour, PROPERTIES
+
+@app.get("/property/{property_id}/tour")
+async def property_tour(property_id: str, mode: str = "tour"):
+    """Return the scripted presentation for a property.
+
+    mode='pitch'  → short hook + 3 hero scenes (~45-60 sec read).
+    mode='tour'   → full 8-scene guided experience (~3-5 min).
+
+    Frontend renders one scene at a time, syncing media + map with the text
+    (voice mode reads each scene aloud; chat mode displays as bubbles).
+    """
+    if mode not in ("pitch", "tour"):
+        raise HTTPException(status_code=400, detail="mode must be 'pitch' or 'tour'")
+    data = get_tour(property_id, mode)
+    if not data:
+        raise HTTPException(status_code=404, detail=f"No tour for property {property_id}")
+    return data
+
+@app.get("/property")
+async def property_list():
+    """Lightweight directory so the frontend (and the AI) can discover
+    which properties have a tour available."""
+    return {
+        "properties": [
+            {"id": pid, "address": p["address"], "city": p["city"],
+             "neighborhood": p["neighborhood"], "status": p["specs"]["status"]}
+            for pid, p in PROPERTIES.items()
+        ]
+    }
 
 
 # ── Conversation Storage ──────────────────────────────────────────────────────
