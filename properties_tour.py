@@ -484,37 +484,37 @@ PROPERTIES = {
              "text": "1071 102nd Place SE — 5,920 square feet of transitional modern design on a quarter-acre lot in Enatai, "
                      "the rare Bellevue neighborhood that still feels like a lakeside village.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_102nd_pl_se_bellevue_wa_98004_mls-720p.mp4",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4.jpg",
                        "caption": "Cinematic property tour"}},
             {"id": "architecture", "title": "Transitional Modern",
              "text": "The architecture bridges classic Northwest craft with modern detailing — wide eaves, board-and-batten "
                      "siding, and a black-trimmed window grid that reads timeless rather than trendy.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_facade.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4.jpg",
                        "caption": "Front elevation"}},
             {"id": "interior", "title": "Curated Interior",
              "text": "Soaring ceilings, white oak floors, and a chef's kitchen with calacatta marble waterfall island. "
                      "The dining room opens through accordion doors to a covered outdoor lounge.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_interior.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_7.jpg",
                        "caption": "Open plan interior"}},
             {"id": "rooms", "title": "Five Suites",
              "text": "Five bedrooms, five full baths. Primary suite on the main floor with private deck. Upstairs: "
                      "four bedrooms, a bonus room, and a dedicated study with built-ins.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_primary.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_11-scaled.jpg",
                        "caption": "Primary suite"}},
             {"id": "outdoor", "title": "Outdoor Living",
              "text": "Covered loggia with stone fireplace, outdoor kitchen, and a flat fenced backyard. Mature evergreens "
                      "line the property — total privacy in an otherwise tight lot pattern.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_backyard.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_16.jpg",
                        "caption": "Outdoor lounge"}},
             {"id": "neighborhood", "title": "Enatai — Bellevue's Hidden Pocket",
              "text": "Enatai is the lakeside enclave between Surrey Downs and Mercer Slough. Most homes here are decades "
                      "old and tightly held — new construction at this scale is rare.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_aerial.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_22.jpg",
                        "caption": "Enatai from above"},
              "map": {"center": [47.5915, -122.2056], "zoom": 15,
                      "markers": [{"lat": 47.5915, "lng": -122.2056, "label": "1071 102nd Pl SE", "kind": "home"}]}},
@@ -522,7 +522,7 @@ PROPERTIES = {
              "text": "Enatai Elementary — a perfect 10 — is three blocks away. Chinook Middle and Bellevue High are both "
                      "within a mile. Walkable schools, top-tier ratings — the Eastside's golden combination.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_schools.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_23.jpg",
                        "caption": "Walk to top schools"},
              "map": {"center": [47.5910, -122.2000], "zoom": 14,
                      "markers": [
@@ -535,7 +535,7 @@ PROPERTIES = {
              "text": "Enatai Beach Park is four blocks away — swim dock, kayak launch, and one of the only sandy beaches "
                      "on the east shore of Lake Washington. Downtown Bellevue is a five-minute drive.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1071_beach.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_12.jpg",
                        "caption": "Lake Washington nearby"},
              "map": {"center": [47.5910, -122.2000], "zoom": 13,
                      "markers": [
@@ -580,38 +580,38 @@ PROPERTIES = {
              "text": "1305 North 50th Street — a brand-new modern craftsman in Wallingford, one of Seattle's most "
                      "walkable family neighborhoods.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_exterior.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_3-2.jpg",
                        "caption": "Front view"}},
             {"id": "architecture", "title": "Modern Craftsman",
              "text": "A respectful update to Wallingford's craftsman roots — gabled rooflines, cedar accents, and a "
                      "covered front porch, paired with modern fenestration and energy systems.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_facade.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4-2.jpg",
                        "caption": "Architectural facade"}},
             {"id": "interior", "title": "Open Plan Interior",
              "text": "Open kitchen-living-dining, white oak floors, and a sun-filled rear extension with sliding glass "
                      "doors to the deck. Designed for the way Seattle families actually live.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_interior.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_7-2.jpg",
                        "caption": "Open living"}},
             {"id": "rooms", "title": "Four Bedrooms",
              "text": "Four bedrooms across three floors. Primary suite on the upper level with vaulted ceiling and "
                      "private deck. The lower level adds a media room and a home office.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_primary.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_11-2.jpg",
                        "caption": "Primary suite"}},
             {"id": "outdoor", "title": "Wallingford Backyard",
              "text": "The fully fenced backyard is rare for this part of Seattle — flat, sunny, and big enough for a "
                      "swing set and a vegetable garden. Detached two-car garage with EV charging.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_backyard.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_16-2.jpg",
                        "caption": "Backyard"}},
             {"id": "neighborhood", "title": "Wallingford — Family Seattle",
              "text": "Wallingford is the family heart of north Seattle — tree-lined streets, an active community "
                      "center, and one of the city's best Sunday farmer's markets. South Lake Union and Amazon are "
                      "an eight-minute drive.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_neighborhood.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_23-2.jpg",
                        "caption": "Wallingford streets"},
              "map": {"center": [47.6648, -122.3429], "zoom": 15,
                      "markers": [{"lat": 47.6648, "lng": -122.3429, "label": "1305 N 50th St", "kind": "home"}]}},
@@ -619,7 +619,7 @@ PROPERTIES = {
              "text": "Hamilton International Middle School is four blocks away — a designated IB World School. "
                      "B.F. Day Elementary and the new Lincoln High School complete the catchment.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_schools.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_27-2.jpg",
                        "caption": "Walk-to-school neighborhood"},
              "map": {"center": [47.6640, -122.3450], "zoom": 14,
                      "markers": [
@@ -632,7 +632,7 @@ PROPERTIES = {
              "text": "Gas Works Park is a nine-minute walk — Seattle's most iconic skyline view. Green Lake Park is a "
                      "few blocks further, with its three-mile loop. The Wallingford Sunday market is two blocks away.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/1305_lifestyle.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_28-2.jpg",
                        "caption": "Wallingford lifestyle"},
              "map": {"center": [47.6650, -122.3400], "zoom": 13,
                      "markers": [
@@ -676,37 +676,37 @@ PROPERTIES = {
              "text": "4920 Stone Avenue North — a contemporary craftsman residence in the heart of Wallingford, designed "
                      "for a Seattle family that wants to walk everywhere.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/3140374168-video-converter.com_.mp4",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_3-1.jpg",
                        "caption": "Tour video"}},
             {"id": "architecture", "title": "Modern Update on a Craftsman Block",
              "text": "Gabled rooflines and natural wood details respect the Wallingford streetscape; modern proportions "
                      "and a steel-and-glass front entry signal the contemporary interior.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/4920_facade.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4-1.jpg",
                        "caption": "Facade"}},
             {"id": "interior", "title": "Light-Filled Living",
              "text": "Open kitchen-dining-living with sliding doors to the backyard deck. Wide-plank oak floors, a 12-foot "
                      "island, and integrated appliances designed for daily Seattle family life.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/4920_interior.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_6-1.jpg",
                        "caption": "Open living"}},
             {"id": "rooms", "title": "Three Bedrooms",
              "text": "Three bedrooms, three and a half baths. Primary suite with vaulted ceiling and walk-in closet. "
                      "Two additional bedrooms on the upper floor. The lower level includes a flex room and home office.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/4920_primary.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_7-1.jpg",
                        "caption": "Primary suite"}},
             {"id": "outdoor", "title": "Wallingford Backyard",
              "text": "A fully fenced backyard with a deck, mature trees, and a low-maintenance turf lawn. Detached "
                      "garage with EV charging is rare for this density.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/4920_backyard.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_9-1.jpg",
                        "caption": "Backyard"}},
             {"id": "neighborhood", "title": "Wallingford / Tangletown",
              "text": "Tangletown is the pocket between Wallingford and Green Lake — quiet residential streets, a local "
                      "bakery and bookstore three blocks away, and an eight-minute drive to South Lake Union.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/4920_neighborhood.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_10-1.jpg",
                        "caption": "Tangletown streets"},
              "map": {"center": [47.6663, -122.3434], "zoom": 15,
                      "markers": [{"lat": 47.6663, "lng": -122.3434, "label": "4920 Stone Ave N", "kind": "home"}]}},
@@ -714,7 +714,7 @@ PROPERTIES = {
              "text": "Hamilton International Middle School is four blocks away. B.F. Day Elementary and Lincoln High "
                      "complete the catchment — all three within a mile and all walkable.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/4920_schools.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_11-1.jpg",
                        "caption": "Schools nearby"},
              "map": {"center": [47.6650, -122.3450], "zoom": 14,
                      "markers": [
@@ -728,7 +728,7 @@ PROPERTIES = {
                      "market is two blocks away. Downtown Seattle is a ten-minute drive; Amazon's South Lake Union "
                      "campus is eight.",
              "media": {"type": "image",
-                       "url": "https://bellshireinc.com/wp-content/uploads/2023/12/4920_lifestyle.jpg",
+                       "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_12-1.jpg",
                        "caption": "Walkable Seattle lifestyle"},
              "map": {"center": [47.6660, -122.3400], "zoom": 13,
                      "markers": [
