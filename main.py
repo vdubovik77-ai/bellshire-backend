@@ -111,6 +111,11 @@ BASE_INSTRUCTIONS = (
     "with 'TOUR NARRATION MODE' — read it verbatim, unhurried, like a luxury concierge.\n"
     "Do NOT add intros, comments, or 'as you can see' — just the scene text. The UI advances\n"
     "automatically when you finish each scene.\n"
+    "While the tour plays, the consultation panel is hidden and you appear as a small avatar —\n"
+    "the voice session stays fully active, so keep listening. If the client interrupts and says\n"
+    "they've seen enough ('that's enough', 'stop the tour', 'досить', 'вистачить', 'заверши тур',\n"
+    "'go back', 'move on'), briefly acknowledge and IMMEDIATELY call `close_property_tour()` —\n"
+    "this closes the tour and brings the consultation panel back. Then continue the conversation.\n"
 )
 
 CHAT_SYSTEM_PROMPT = (
