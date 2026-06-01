@@ -962,6 +962,18 @@ VIDEO_CHAPTERS = {
         "family": 74, "family_room": 74, "lower_level": 80, "basement": 80,
         "second_kitchen": 80, "wet_bar": 82, "backyard": 90, "patio": 90, "deck": 98,
     },
+    "312": {
+        "view": 0, "exterior": 4, "living": 20, "great_room": 20, "stairs": 34,
+        "kitchen": 36, "dining": 48, "family": 54, "family_room": 54, "guest_bath": 56,
+        "entry": 60, "master": 62, "master_bedroom": 62, "bedroom": 64, "master_bath": 66,
+        "bathroom": 68, "closet": 74, "walk_in_closet": 74, "backyard": 82, "patio": 82, "deck": 84,
+    },
+    "218": {
+        "view": 0, "exterior": 6, "entry": 16, "living": 18, "great_room": 18, "stairs": 32,
+        "dining": 28, "kitchen": 38, "bedroom": 56, "closet": 46, "walk_in_closet": 46,
+        "bathroom": 48, "master_bath": 52, "office": 54, "study": 54, "family": 68,
+        "family_room": 68, "backyard": 70, "patio": 70,
+    },
 }
 
 
