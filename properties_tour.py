@@ -51,59 +51,58 @@ PROPERTIES = {
             {"name": "Chism Beach Park",          "distance": "1.6 mi", "features": "lakefront beach, picnic areas"},
         ],
         "pitch": (
-            "Welcome to 10425 SE 20th Street — a presale opportunity in Enatai, one of Bellevue's most coveted "
-            "lakeside neighborhoods. Imagine a 4,517 square-foot contemporary residence designed around natural "
-            "light, with five bedrooms, five baths, and architectural details you typically only find in custom "
-            "Pacific Northwest estates. Lake Washington is a five-minute walk; Bellevue's top-ranked schools sit "
-            "just down the block. This is the rare chance to own a brand-new home in a neighborhood where almost "
-            "nothing comes to market."
+            "Welcome to the Enatai Residence at 10425 SE 20th Street — a brand-new modern luxury home available "
+            "for presale near downtown Bellevue. Four thousand five hundred seventeen square feet, five bedrooms, "
+            "five baths, and a three-car garage on a nine-thousand-five-hundred-square-foot lot. It's built with "
+            "expert craftsmanship and carefully selected materials, with smart-home technology, solar power, and "
+            "energy-efficient systems throughout. Open living spaces flow seamlessly into a covered patio and a "
+            "private backyard — privacy without compromising on convenience, in one of Bellevue's most coveted neighborhoods."
         ),
         "scenes": [
             {
                 "id": "hook", "title": "An Enatai Presale",
-                "text": "Welcome to 10425 SE 20th Street — a brand-new 4,517 square-foot residence rising in Enatai, "
-                        "one of the few Bellevue neighborhoods that still feels like a hidden lakeside village.",
+                "text": "Welcome to the Enatai Residence at 10425 SE 20th Street — a brand-new, 4,517-square-foot modern "
+                        "luxury home, available now for presale just minutes from downtown Bellevue.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-1.jpg",
                           "caption": "Sunset render — 10425 SE 20th Street"},
             },
             {
-                "id": "architecture", "title": "Contemporary Northwest",
-                "text": "The architecture blends warm cedar, blackened steel, and floor-to-ceiling glass — "
-                        "a contemporary Pacific Northwest language that lets the surrounding trees do half the design work.",
+                "id": "architecture", "title": "Modern Luxury, Expert Craftsmanship",
+                "text": "This is modern luxury built with expert craftsmanship and carefully selected materials — "
+                        "a brand-new residence that offers privacy without compromising on the convenience of downtown Bellevue just minutes away.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-2.jpg",
                           "caption": "Facade — natural materials, modern silhouette"},
             },
             {
-                "id": "interior", "title": "Open Living, Quiet Flow",
-                "text": "Inside, the main floor opens around a double-height great room. A chef's kitchen with "
-                        "butler's pantry connects to a covered outdoor lounge — the house is designed for entertaining "
-                        "and for the seven months of soft Pacific light.",
+                "id": "interior", "title": "Open Living, Indoor-Outdoor Flow",
+                "text": "Inside, open living spaces flow seamlessly into a covered patio and a private backyard. "
+                        "It's a flexible floor plan, designed to adapt to how you actually live and entertain.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-3.jpg",
                           "caption": "Open great room concept"},
             },
             {
-                "id": "rooms", "title": "Five Bedrooms, Five Baths",
-                "text": "Five bedrooms and five full baths — including a primary suite on the main floor and "
-                        "a private guest wing upstairs. Every bath is finished with European fixtures and natural stone.",
+                "id": "rooms", "title": "Five Bedrooms, Spa-Inspired Suite",
+                "text": "Five bedrooms and five full baths, anchored by a spa-inspired primary suite. Smart-home "
+                        "technology, solar power, and energy-efficient systems are built in throughout the home.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-4.jpg",
                           "caption": "Primary suite concept"},
             },
             {
-                "id": "outdoor", "title": "The Lot & Outdoor Living",
-                "text": "The 0.21 acre lot is fully landscaped: a flat backyard, mature evergreens for privacy, "
-                        "and a covered loggia with a built-in fireplace that extends the living season into October.",
+                "id": "outdoor", "title": "Covered Patio & Private Backyard",
+                "text": "The home sits on a 9,541-square-foot lot with a private backyard and a covered patio — "
+                        "true indoor-outdoor living, with quiet seclusion just minutes from the city.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-5.jpg",
                           "caption": "Outdoor lounge & landscape"},
             },
             {
-                "id": "neighborhood", "title": "Enatai — Bellevue's Lake Village",
-                "text": "Enatai is the quiet pocket between Mercer Slough and Lake Washington. Most properties "
-                        "stay in families for decades — this is the rare new build in a neighborhood almost no one leaves.",
+                "id": "neighborhood", "title": "Enatai — Quiet, Close to Everything",
+                "text": "Enatai is a tranquil residential pocket of Bellevue near Lake Washington — privacy and quiet, "
+                        "while staying minutes from downtown Bellevue's shops, dining, and freeways.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/03/10425_ENATAI-RESIDENCE_01-6.jpg",
                           "caption": "Aerial view of Enatai"},
@@ -152,8 +151,8 @@ PROPERTIES = {
         "city": "Bellevue",
         "coords": [47.6285, -122.1356],
         "specs": {
-            "status": "For Sale",
-            "price": "$3,500,000",
+            "status": "Pending",
+            "price": "$3,158,000",
             "beds": 5, "baths": 4.25, "sqft": 4400,
             "lot": "0.20 acre", "yearBuilt": 2024, "style": "Contemporary Modern",
         },
@@ -168,58 +167,57 @@ PROPERTIES = {
             {"name": "Robinswood Park",         "distance": "1.0 mi", "features": "dog park, off-leash trails, equestrian"},
         ],
         "pitch": (
-            "312 160th Avenue NE is contemporary luxury at its most refined — a 4,400 square-foot residence on a "
-            "quiet Bellevue lot with five bedrooms, a chef's kitchen, and a backyard built for outdoor entertaining. "
-            "The home sits in the Sherwood Forest pocket of Crossroads — walking distance to top-ranked schools, "
-            "Crossroads Park, and ten minutes from downtown Bellevue and Microsoft's Redmond campus."
+            "312 160th Avenue NE is contemporary luxury near Bellevue, Sammamish, and the Microsoft campus, offered "
+            "at three million one hundred fifty-eight thousand dollars. A 4,400-square-foot residence with five "
+            "bedrooms and four-and-a-quarter baths, built with exceptional craftsmanship and carefully selected "
+            "materials. Open living spaces extend to a covered terrace and a private backyard, with a spa-inspired "
+            "primary suite, smart-home technology, and solar energy throughout — privacy without compromising on convenience."
         ),
         "scenes": [
             {
                 "id": "hook", "title": "Sophistication in Every Detail",
-                "text": "312 160th Avenue NE — a brand-new contemporary residence where four thousand four hundred "
-                        "square feet of refined design meet one of Bellevue's most family-loved neighborhoods.",
+                "text": "312 160th Avenue NE — a brand-new contemporary luxury residence, four thousand four hundred "
+                        "square feet near Bellevue, Sammamish, and the Microsoft campus.",
                 "media": {"type": "video",
                           "url": "https://bellshireinc.com/wp-content/uploads/2026/02/6524_Cinematoc_4K_Branded_New_Music_v3-3.mp4",
                           "caption": "Cinematic property tour"},
             },
             {
                 "id": "architecture", "title": "Contemporary Modern",
-                "text": "Clean horizontal lines, blackened metal accents, and warm wood paneling — a contemporary "
-                        "language that feels both modern and timeless. Built in 2024 to the highest current energy code.",
+                "text": "Contemporary luxury, built with exceptional craftsmanship and carefully selected materials — "
+                        "a brand-new residence designed for privacy without compromising on convenience.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2025/07/1-web-or-mls-312-160th-ave-ne.jpg",
                           "caption": "Front elevation"},
             },
             {
                 "id": "interior", "title": "Sun-Filled Open Plan",
-                "text": "Inside, an open kitchen-living-dining flows through walls of glass to the outdoor terrace. "
-                        "Wide-plank European oak, vaulted ceilings, and a 16-foot stone fireplace anchor the great room.",
+                "text": "Inside, open living spaces flow through to a covered terrace and a private backyard — "
+                        "bright, modern, and designed for both everyday living and entertaining.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2025/07/8-web-or-mls-312-160th-ave-ne.jpg",
                           "caption": "Great room with stone fireplace"},
             },
             {
                 "id": "rooms", "title": "Signature Spaces",
-                "text": "A chef's kitchen with Wolf and Sub-Zero appliances, a primary suite with private deck and "
-                        "spa bath, plus four additional bedrooms. The lower level features a media room and dedicated "
-                        "home office.",
+                "text": "A spa-inspired primary suite anchors five bedrooms and four-and-a-quarter baths. Smart-home "
+                        "technology and solar energy systems are integrated throughout the home.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2025/07/12-web-or-mls-312-160th-ave-ne.jpg",
                           "caption": "Chef's kitchen"},
             },
             {
-                "id": "outdoor", "title": "Backyard & Lot",
-                "text": "The fully landscaped 0.2 acre lot includes a covered outdoor kitchen, gas fire feature, "
-                        "and a flat lawn perfect for kids or a future pool. Mature trees provide complete privacy.",
+                "id": "outdoor", "title": "Covered Terrace & Backyard",
+                "text": "Open living extends outdoors to a covered terrace and a private backyard on an 8,250-square-foot "
+                        "lot — your own quiet retreat, minutes from the city.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2025/07/22-web-or-mls-312-160th-ave-ne.jpg",
                           "caption": "Outdoor entertaining"},
             },
             {
-                "id": "neighborhood", "title": "Crossroads — Family Bellevue",
-                "text": "This pocket of Crossroads is Bellevue's family heartland — mature streets, large lots, and "
-                        "walking access to parks. Ten minutes to downtown Bellevue, twelve minutes to Microsoft, "
-                        "and a fifteen-minute drive across 520 to Seattle.",
+                "id": "neighborhood", "title": "Near Bellevue, Sammamish & Microsoft",
+                "text": "The home sits in the Crossroads area of Bellevue, near Sammamish and the Microsoft campus — "
+                        "an easy commute to the Eastside's major tech employers, with the quiet of a residential street.",
                 "media": {"type": "image",
                           "url": "https://bellshireinc.com/wp-content/uploads/2025/07/2-web-or-mls-312-160th-ave-ne.jpg",
                           "caption": "Aerial — Crossroads neighborhood"},
@@ -272,7 +270,7 @@ PROPERTIES = {
         "specs": {
             "status": "Pending",
             "price": "$4,500,000",
-            "beds": 5, "baths": 4.25, "sqft": 4400,
+            "beds": 5, "baths": 4.25, "sqft": 4400, "garage": 2,
             "lot": "0.18 acre", "yearBuilt": 2025, "style": "Urban Contemporary",
         },
         "schools": [
@@ -286,44 +284,46 @@ PROPERTIES = {
             {"name": "Meydenbauer Bay Park", "distance": "1.2 mi", "features": "lakefront beach, marina, swim area"},
         ],
         "pitch": (
-            "218 109th Avenue SE is urban contemporary luxury, three blocks from Bellevue Square and a six-minute walk "
-            "to Bellevue High. Five bedrooms, 4.25 baths, 4,400 square feet of polished design — and you can walk to "
-            "the best restaurants, parks, and schools on the Eastside. This is what 'walk-to-everything Bellevue' looks like."
+            "218 109th Avenue SE is a brand-new modern luxury home in the heart of Bellevue's Surrey Downs, near "
+            "top-rated schools and parks — offered at four million five hundred thousand dollars. Five bedrooms, "
+            "four-and-a-quarter baths, 4,400 square feet, with a separate study and a gourmet chef's kitchen featuring "
+            "a premium Thermador appliance package. There are two living spaces — including a home theater and a game "
+            "room — plus smart-home technology, EV chargers, and energy-efficient LED lighting throughout."
         ),
         "scenes": [
-            {"id": "hook", "title": "Walk-to-Everything Bellevue",
-             "text": "218 109th Avenue SE — a brand-new urban residence three blocks from Bellevue Square, a short walk to "
-                     "the city's best parks, and inside the catchment for Bellevue's top schools.",
+            {"id": "hook", "title": "Modern Luxury in the Heart of Bellevue",
+             "text": "218 109th Avenue SE — a brand-new modern luxury residence in Bellevue's Surrey Downs, "
+                     "near top-rated schools and parks.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/002_2-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Front view"}},
-            {"id": "architecture", "title": "Urban Contemporary",
-             "text": "Crisp horizontal lines, dark brick accents, and a steel-and-glass front door — the architecture "
-                     "feels at home in downtown Bellevue's evolving skyline.",
+            {"id": "architecture", "title": "Brand-New Modern Luxury",
+             "text": "A brand-new modern luxury build in the heart of Bellevue — clean contemporary design and "
+                     "premium craftsmanship throughout, minutes from downtown.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/003_3-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Modern facade"}},
-            {"id": "interior", "title": "Light-Filled Open Plan",
-             "text": "Inside: 22-foot vaulted ceilings, a glass-walled great room, and a chef's kitchen with hidden "
-                     "appliance pantry — designed for both gallery-quiet weekday mornings and Saturday-night dinner parties.",
+            {"id": "interior", "title": "Chef's Kitchen & Two Living Spaces",
+             "text": "Inside, a gourmet chef's kitchen with a premium Thermador appliance package anchors the main level, "
+                     "opening to two living spaces — including a home theater and a game room — plus a separate study.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/004_4-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Great room"}},
             {"id": "rooms", "title": "Signature Rooms",
-             "text": "Five bedrooms, including a main-floor primary suite with private patio and a glass-walled walk-in "
-                     "closet. The upper level features a media room and three en-suite bedrooms.",
+             "text": "Five bedrooms and four-and-a-quarter baths, with smart-home technology, EV chargers, and "
+                     "energy-efficient LED lighting integrated throughout the home.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/005_5-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Primary suite"}},
             {"id": "outdoor", "title": "Outdoor Living",
-             "text": "The fully fenced backyard includes a covered outdoor kitchen, gas fire feature, and a low-maintenance "
-                     "turf lawn. Mature trees on every property line keep the lot private despite the urban location.",
+             "text": "A spacious main-level patio is built for outdoor dining, opening to a large backyard with "
+                     "seamless indoor-outdoor living — private, yet minutes from the heart of the city.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/006_6-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Backyard"}},
             {"id": "neighborhood", "title": "Surrey Downs — In the Heart of Bellevue",
-             "text": "Surrey Downs is the rare quiet residential pocket inside Bellevue's urban core. Bellevue Square, "
-                     "the new Light Rail station, and three of the city's top restaurants are all within a six-minute walk.",
+             "text": "Surrey Downs is a quiet residential pocket in the heart of Bellevue — minutes from downtown "
+                     "Bellevue's shops, dining, and parks, with top-rated schools close by.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/007_7-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Surrey Downs neighborhood"},
@@ -344,9 +344,8 @@ PROPERTIES = {
                          {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Parks, Lake & Lifestyle",
-             "text": "Downtown Park's canopy walkway is a nine-minute walk; Meydenbauer Bay Park gives you a beach and "
-                     "marina on Lake Washington. The Spring District and Wilburton Light Rail stations are minutes away — "
-                     "Seattle is a 12-minute train ride.",
+             "text": "Surrey Downs Park is around the corner. Bellevue Downtown Park and Meydenbauer Bay Park's "
+                     "lakefront beach and marina on Lake Washington are just minutes away.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/009_9-print-218-109th-ave-se_196-scaled.jpg",
                        "caption": "Urban Bellevue lifestyle"},
@@ -384,45 +383,47 @@ PROPERTIES = {
             {"name": "Meydenbauer Bay Park",      "distance": "1.1 mi", "features": "lakefront beach, marina"},
         ],
         "pitch": (
-            "1224 108th Avenue SE is a 6,713 square-foot modern estate — six bedrooms, seven and a half baths, every "
-            "luxury detail you can name. Set on a quarter-acre in Enatai, half a mile from Bellevue High, and a "
-            "stone's throw from Lake Washington. This is the kind of trophy property that defines a generation of "
-            "Bellevue luxury."
+            "1224 108th Avenue SE is modern luxury in the heart of Bellevue — a newly constructed estate of 6,713 "
+            "square feet with six bedrooms, seven-and-a-half baths, and a three-car garage, offered at six million "
+            "four hundred fifty thousand dollars. It has a separate study and a gourmet chef's kitchen with premium "
+            "Thermador appliances, two living spaces, and a daylit basement with a second kitchen and a home theater. "
+            "Outside: a private terrace with direct basement access, a main-level deck for dining, and an expansive "
+            "backyard shaded by century-old pine trees."
         ),
         "scenes": [
             {"id": "hook", "title": "A Modern Bellevue Estate",
-             "text": "1224 108th Avenue SE — a 6,713 square-foot modern estate, six bedrooms, seven and a half baths, "
-                     "every detail considered. This is what the top of the Bellevue market looks like in 2024.",
+             "text": "1224 108th Avenue SE — modern luxury in the heart of Bellevue. A newly constructed estate: "
+                     "6,713 square feet, six bedrooms, seven-and-a-half baths.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/1-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Estate entrance"}},
             {"id": "architecture", "title": "Modern Estate Architecture",
-             "text": "Soaring rooflines, blackened steel, and warm wood — the architecture feels at once contemporary "
-                     "and rooted in the Pacific Northwest. Every angle was designed for a piece of art.",
+             "text": "A newly constructed, three-level modern estate finished to the highest standard — modern luxury "
+                     "in one of Bellevue's most established neighborhoods.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/3-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Architectural facade"}},
-            {"id": "interior", "title": "Cathedral-Scale Living",
-             "text": "Twenty-eight-foot ceilings in the great room, walls of glass overlooking the courtyard, and a "
-                     "chef's kitchen with butler's pantry, hidden scullery, and a 13-foot island.",
+            {"id": "interior", "title": "Chef's Kitchen & Two Living Spaces",
+             "text": "Inside, a gourmet chef's kitchen with premium Thermador appliances and a separate study anchor "
+                     "the main level, with two living spaces designed for entertaining.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/5-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Great room"}},
-            {"id": "rooms", "title": "Signature Rooms",
-             "text": "Six bedrooms, all en-suite. A primary suite that occupies the entire west wing with private "
-                     "spa, sauna, and walk-in closets. A media room, wine cellar, and a dedicated home office.",
+            {"id": "rooms", "title": "Three Levels, Daylit Basement",
+             "text": "Six bedrooms and seven-and-a-half baths across three levels, including a daylit basement with "
+                     "a second kitchen and a private home theater — plus EV chargers and smart-home technology throughout.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/8-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Primary suite"}},
-            {"id": "outdoor", "title": "Resort-Scale Outdoor",
-             "text": "The 0.28-acre lot includes a heated pool, outdoor kitchen, fire pit terrace, and a guest casita — "
-                     "every element designed to make this house the place where everyone wants to gather.",
+            {"id": "outdoor", "title": "Terrace, Deck & Century-Old Pines",
+             "text": "Outside: a private terrace with direct basement access, a main-level deck designed for outdoor "
+                     "dining, and an expansive backyard shaded by century-old pine trees.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/12-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Pool and outdoor kitchen"}},
-            {"id": "neighborhood", "title": "Enatai — Old Money Bellevue",
-             "text": "Enatai is the quiet old-money pocket between Surrey Downs and Lake Washington. Mature trees, "
-                     "wide lots, and the rare neighborhood where new construction is genuinely welcomed.",
+            {"id": "neighborhood", "title": "Heart of Bellevue, Near the Lake",
+             "text": "The estate sits in one of Bellevue's most established residential neighborhoods near Lake "
+                     "Washington — mature trees, generous lots, and only minutes from downtown Bellevue.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/2-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Enatai aerial"},
@@ -443,8 +444,8 @@ PROPERTIES = {
                          {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Lake, Parks, City",
-             "text": "Mercer Slough is at your back door — 320 acres of wetlands and canoe trails. Meydenbauer Bay Park "
-                     "and the lake beach are a mile away. Downtown Bellevue is six minutes by car; Microsoft is twelve.",
+             "text": "Mercer Slough Nature Park's wetlands and trails are nearby, with Bellefields Nature Park and "
+                     "Meydenbauer Bay Park on Lake Washington close by. Downtown Bellevue is just minutes away.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2025/06/7-web-or-mls-1224-108th-ave-se.jpg",
                        "caption": "Lakeside lifestyle"},
@@ -467,7 +468,7 @@ PROPERTIES = {
         "coords": [47.5915, -122.2056],
         "specs": {
             "status": "Sold",
-            "price": "$4,200,000",
+            "price": "Price on request",
             "beds": 5, "baths": 5, "sqft": 5920,
             "lot": "0.25 acre", "yearBuilt": 2023, "style": "Transitional Modern",
         },
@@ -482,44 +483,45 @@ PROPERTIES = {
             {"name": "Mercer Slough Nature Park",  "distance": "1.1 mi", "features": "wetlands, canoe tours"},
         ],
         "pitch": (
-            "1071 102nd Place SE is 5,920 square feet of transitional modern luxury on a quarter-acre Enatai lot. "
-            "Five bedrooms, five baths, walls of glass framing the trees, and three minutes to Enatai Beach. "
-            "A great example of what custom Bellevue luxury looks like."
+            "1071 102nd Place SE is brand-new construction in Bellevue — 5,920 square feet with five bedrooms, five "
+            "baths, and a two-car garage. It's an open floor plan with high ceilings and oversized windows, hardwood "
+            "and heated floors, a large kitchen with stainless steel appliances, walk-in closets, and city-light "
+            "views. As Bellshire puts it — your dream home is here."
         ),
         "scenes": [
-            {"id": "hook", "title": "Transitional Modern in Enatai",
-             "text": "1071 102nd Place SE — 5,920 square feet of transitional modern design on a quarter-acre lot in Enatai, "
-                     "the rare Bellevue neighborhood that still feels like a lakeside village.",
+            {"id": "hook", "title": "Brand-New Construction in Bellevue",
+             "text": "1071 102nd Place SE — brand-new construction in Bellevue, 5,920 square feet with five bedrooms "
+                     "and five baths.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4.jpg",
                        "caption": "Cinematic property tour"}},
-            {"id": "architecture", "title": "Transitional Modern",
-             "text": "The architecture bridges classic Northwest craft with modern detailing — wide eaves, board-and-batten "
-                     "siding, and a black-trimmed window grid that reads timeless rather than trendy.",
+            {"id": "architecture", "title": "Light-Filled New Build",
+             "text": "New construction with an open, light-filled design — high ceilings, oversized windows, "
+                     "and quality finishes throughout.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4.jpg",
                        "caption": "Front elevation"}},
-            {"id": "interior", "title": "Curated Interior",
-             "text": "Soaring ceilings, white oak floors, and a chef's kitchen with calacatta marble waterfall island. "
-                     "The dining room opens through accordion doors to a covered outdoor lounge.",
+            {"id": "interior", "title": "Open, Light-Filled Living",
+             "text": "Inside, an open floor plan with high ceilings and oversized windows, hardwood and heated floors, "
+                     "and a large kitchen finished with stainless steel appliances.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_7.jpg",
                        "caption": "Open plan interior"}},
-            {"id": "rooms", "title": "Five Suites",
-             "text": "Five bedrooms, five full baths. Primary suite on the main floor with private deck. Upstairs: "
-                     "four bedrooms, a bonus room, and a dedicated study with built-ins.",
+            {"id": "rooms", "title": "Five Bedrooms, City-Light Views",
+             "text": "Five bedrooms and five full baths with generous walk-in closets — comfortable, modern living, "
+                     "with city-light views from the upper level.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_11-scaled.jpg",
                        "caption": "Primary suite"}},
-            {"id": "outdoor", "title": "Outdoor Living",
-             "text": "Covered loggia with stone fireplace, outdoor kitchen, and a flat fenced backyard. Mature evergreens "
-                     "line the property — total privacy in an otherwise tight lot pattern.",
+            {"id": "outdoor", "title": "Private Outdoor Space",
+             "text": "A private yard rounds out the home — quiet seclusion in an established Bellevue neighborhood, "
+                     "just minutes from Lake Washington and downtown.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_16.jpg",
                        "caption": "Outdoor lounge"}},
-            {"id": "neighborhood", "title": "Enatai — Bellevue's Hidden Pocket",
-             "text": "Enatai is the lakeside enclave between Surrey Downs and Mercer Slough. Most homes here are decades "
-                     "old and tightly held — new construction at this scale is rare.",
+            {"id": "neighborhood", "title": "Quiet, Established Bellevue",
+             "text": "The home sits in a quiet, established Bellevue neighborhood near Lake Washington — great schools, "
+                     "parks, and downtown Bellevue all close by.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_22.jpg",
                        "caption": "Enatai from above"},
@@ -540,8 +542,8 @@ PROPERTIES = {
                          {"lat": 47.5908, "lng": -122.1923, "label": "Bellevue High (10/10)",     "kind": "school"},
                      ]}},
             {"id": "lifestyle", "title": "Lake, Parks, City",
-             "text": "Enatai Beach Park is four blocks away — swim dock, kayak launch, and one of the only sandy beaches "
-                     "on the east shore of Lake Washington. Downtown Bellevue is a five-minute drive.",
+             "text": "Enatai Beach Park, with its swim dock and kayak launch on Lake Washington, is close by, along "
+                     "with Mercer Slough's nature trails. Downtown Bellevue is just a short drive.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_12.jpg",
                        "caption": "Lake Washington nearby"},
@@ -559,7 +561,7 @@ PROPERTIES = {
     # ──────────────────────────────────────────────────────────────────────────
     "1305": {
         "address": "1305 North 50th Street, Seattle WA 98103",
-        "neighborhood": "Wallingford",
+        "neighborhood": "Woodland Park / Wallingford",
         "city": "Seattle",
         "coords": [47.6648, -122.3429],
         "specs": {
@@ -579,46 +581,47 @@ PROPERTIES = {
             {"name": "Green Lake Park",         "distance": "1.2 mi", "features": "3-mile loop, swimming, paddleboarding"},
         ],
         "pitch": (
-            "1305 North 50th Street is modern craftsman luxury in the heart of Wallingford — Seattle's most walkable, "
-            "most loved family neighborhood. 3,120 square feet, four bedrooms, and you can walk to Gas Works Park, "
-            "Green Lake, and the Sunday farmer's market. A perfect example of what new Seattle construction can be "
-            "when it respects the neighborhood that surrounds it."
+            "1305 North 50th Street is a newly constructed Seattle home right next to Woodland Park, offered at two "
+            "million four hundred thousand dollars. Three thousand one hundred twenty square feet with four bedrooms "
+            "plus a den, three-and-a-half baths, and a two-car garage. It has territorial views from the upper-floor "
+            "bedrooms, an open kitchen with Thermador appliances, a glass staircase, and a rooftop deck with an "
+            "outdoor patio. Smart-home technology, EV chargers, an efficient split-system air conditioning with heat "
+            "pumps, and hardwood and heated floors throughout — near Green Lake and minutes from downtown Seattle."
         ),
         "scenes": [
-            {"id": "hook", "title": "Modern Wallingford",
-             "text": "1305 North 50th Street — a brand-new modern craftsman in Wallingford, one of Seattle's most "
-                     "walkable family neighborhoods.",
+            {"id": "hook", "title": "New Home by Woodland Park",
+             "text": "1305 North 50th Street — a brand-new Seattle home right next to Woodland Park, near Green Lake "
+                     "and minutes from downtown.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_3-2.jpg",
                        "caption": "Front view"}},
-            {"id": "architecture", "title": "Modern Craftsman",
-             "text": "A respectful update to Wallingford's craftsman roots — gabled rooflines, cedar accents, and a "
-                     "covered front porch, paired with modern fenestration and energy systems.",
+            {"id": "architecture", "title": "Newly Constructed",
+             "text": "Newly constructed with high-end materials and luxurious finishes — a bright, modern home "
+                     "designed for north-Seattle living.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4-2.jpg",
                        "caption": "Architectural facade"}},
-            {"id": "interior", "title": "Open Plan Interior",
-             "text": "Open kitchen-living-dining, white oak floors, and a sun-filled rear extension with sliding glass "
-                     "doors to the deck. Designed for the way Seattle families actually live.",
+            {"id": "interior", "title": "Open Kitchen & Glass Staircase",
+             "text": "Inside, an open kitchen with Thermador appliances, a striking glass staircase, hardwood and "
+                     "heated floors, and a second family room.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_7-2.jpg",
                        "caption": "Open living"}},
-            {"id": "rooms", "title": "Four Bedrooms",
-             "text": "Four bedrooms across three floors. Primary suite on the upper level with vaulted ceiling and "
-                     "private deck. The lower level adds a media room and a home office.",
+            {"id": "rooms", "title": "Four Bedrooms + Den",
+             "text": "Four bedrooms plus a den and three-and-a-half baths, with light-filled territorial views from "
+                     "the upper-floor bedrooms and walk-in closets.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_11-2.jpg",
                        "caption": "Primary suite"}},
-            {"id": "outdoor", "title": "Wallingford Backyard",
-             "text": "The fully fenced backyard is rare for this part of Seattle — flat, sunny, and big enough for a "
-                     "swing set and a vegetable garden. Detached two-car garage with EV charging.",
+            {"id": "outdoor", "title": "Rooftop Deck & Backyard",
+             "text": "A rooftop deck with an outdoor patio and a private backyard — plus EV chargers, an efficient "
+                     "split-system A/C with heat pumps, smart-home tech, sprinklers, and gutter guards.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_16-2.jpg",
                        "caption": "Backyard"}},
-            {"id": "neighborhood", "title": "Wallingford — Family Seattle",
-             "text": "Wallingford is the family heart of north Seattle — tree-lined streets, an active community "
-                     "center, and one of the city's best Sunday farmer's markets. South Lake Union and Amazon are "
-                     "an eight-minute drive.",
+            {"id": "neighborhood", "title": "Next to Woodland Park",
+             "text": "The home sits next to Woodland Park in north Seattle — green space and the zoo right at your "
+                     "door, Green Lake nearby, and an easy trip to downtown Seattle.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_23-2.jpg",
                        "caption": "Wallingford streets"},
@@ -638,9 +641,9 @@ PROPERTIES = {
                          {"lat": 47.6692, "lng": -122.3460, "label": "Hamilton International (8/10)","kind": "school"},
                          {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (10/10)",        "kind": "school"},
                      ]}},
-            {"id": "lifestyle", "title": "Parks & Wallingford Life",
-             "text": "Gas Works Park is a nine-minute walk — Seattle's most iconic skyline view. Green Lake Park is a "
-                     "few blocks further, with its three-mile loop. The Wallingford Sunday market is two blocks away.",
+            {"id": "lifestyle", "title": "Parks & North Seattle Life",
+             "text": "Woodland Park and its zoo are right next door, Green Lake's three-mile loop is close by, and "
+                     "Gas Works Park's iconic skyline views are a short trip away.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_28-2.jpg",
                        "caption": "Wallingford lifestyle"},
@@ -658,7 +661,7 @@ PROPERTIES = {
     # ──────────────────────────────────────────────────────────────────────────
     "4920": {
         "address": "4920 Stone Ave N, Seattle WA 98103",
-        "neighborhood": "Wallingford / Tangletown",
+        "neighborhood": "Woodland Park / Fremont",
         "city": "Seattle",
         "coords": [47.6663, -122.3434],
         "specs": {
@@ -678,44 +681,47 @@ PROPERTIES = {
             {"name": "Green Lake Park",            "distance": "1.0 mi", "features": "3-mile loop, swim beach"},
         ],
         "pitch": (
-            "4920 Stone Avenue North is contemporary craftsman in Wallingford — three bedrooms, three and a half baths, "
-            "2,690 square feet of intelligent design. Walk to Gas Works Park, Green Lake, and Seattle's best Sunday "
-            "farmer's market. A perfectly-sized Seattle family home in one of the city's most loved neighborhoods."
+            "4920 Stone Avenue North is a brand-new Seattle home near Woodland Park, offered at two million two "
+            "hundred thousand dollars. Two thousand six hundred ninety square feet with three bedrooms, "
+            "three-and-a-half baths, and a two-car garage. It has light-filled territorial views from the upper-floor "
+            "bedrooms, an open kitchen with Thermador appliances, a glass staircase, and a rooftop deck. Smart-home "
+            "technology, EV chargers, and an efficient split-system air conditioning with heat pumps — close to Green "
+            "Lake and minutes from downtown Seattle."
         ),
         "scenes": [
-            {"id": "hook", "title": "Contemporary Craftsman",
-             "text": "4920 Stone Avenue North — a contemporary craftsman residence in the heart of Wallingford, designed "
-                     "for a Seattle family that wants to walk everywhere.",
+            {"id": "hook", "title": "New Home near Woodland Park",
+             "text": "4920 Stone Avenue North — a brand-new Seattle home near Woodland Park, close to Green Lake "
+                     "and downtown.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_3-1.jpg",
                        "caption": "Tour video"}},
-            {"id": "architecture", "title": "Modern Update on a Craftsman Block",
-             "text": "Gabled rooflines and natural wood details respect the Wallingford streetscape; modern proportions "
-                     "and a steel-and-glass front entry signal the contemporary interior.",
+            {"id": "architecture", "title": "Brand-New Construction",
+             "text": "Brand-new construction with high-end materials and luxurious finishes — a bright, modern, "
+                     "light-filled home in north Seattle.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_4-1.jpg",
                        "caption": "Facade"}},
-            {"id": "interior", "title": "Light-Filled Living",
-             "text": "Open kitchen-dining-living with sliding doors to the backyard deck. Wide-plank oak floors, a 12-foot "
-                     "island, and integrated appliances designed for daily Seattle family life.",
+            {"id": "interior", "title": "Open Kitchen & Glass Staircase",
+             "text": "Inside, an open kitchen with Thermador appliances, a glass staircase, hardwood and heated "
+                     "floors, and oversized windows that fill the home with light.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_6-1.jpg",
                        "caption": "Open living"}},
-            {"id": "rooms", "title": "Three Bedrooms",
-             "text": "Three bedrooms, three and a half baths. Primary suite with vaulted ceiling and walk-in closet. "
-                     "Two additional bedrooms on the upper floor. The lower level includes a flex room and home office.",
+            {"id": "rooms", "title": "Three Bedrooms, Light-Filled",
+             "text": "Three bedrooms and three-and-a-half baths, with light-filled territorial views from the "
+                     "upper-floor bedrooms and walk-in closets.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_7-1.jpg",
                        "caption": "Primary suite"}},
-            {"id": "outdoor", "title": "Wallingford Backyard",
-             "text": "A fully fenced backyard with a deck, mature trees, and a low-maintenance turf lawn. Detached "
-                     "garage with EV charging is rare for this density.",
+            {"id": "outdoor", "title": "Rooftop Deck & Backyard",
+             "text": "A rooftop deck and a private backyard — plus EV chargers, an efficient split-system A/C with "
+                     "heat pumps, smart-home tech, sprinklers, and gutter guards.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_9-1.jpg",
                        "caption": "Backyard"}},
-            {"id": "neighborhood", "title": "Wallingford / Tangletown",
-             "text": "Tangletown is the pocket between Wallingford and Green Lake — quiet residential streets, a local "
-                     "bakery and bookstore three blocks away, and an eight-minute drive to South Lake Union.",
+            {"id": "neighborhood", "title": "Near Woodland Park & Green Lake",
+             "text": "The home sits near Woodland Park in north Seattle — green space close by, Green Lake nearby, "
+                     "and an easy trip into downtown Seattle.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_10-1.jpg",
                        "caption": "Tangletown streets"},
@@ -735,10 +741,9 @@ PROPERTIES = {
                          {"lat": 47.6692, "lng": -122.3460, "label": "Hamilton International (8/10)","kind": "school"},
                          {"lat": 47.6738, "lng": -122.3469, "label": "Lincoln High (10/10)",        "kind": "school"},
                      ]}},
-            {"id": "lifestyle", "title": "Parks & Wallingford Life",
-             "text": "Gas Works Park, Green Lake, and Wallingford Playfield are all within a mile. The Sunday farmer's "
-                     "market is two blocks away. Downtown Seattle is a ten-minute drive; Amazon's South Lake Union "
-                     "campus is eight.",
+            {"id": "lifestyle", "title": "Parks & North Seattle Life",
+             "text": "Woodland Park, Green Lake's three-mile loop, and Gas Works Park are all close by — and "
+                     "downtown Seattle is just a short drive.",
              "media": {"type": "image",
                        "url": "https://bellshireinc.com/wp-content/uploads/2023/11/web_12-1.jpg",
                        "caption": "Walkable Seattle lifestyle"},
