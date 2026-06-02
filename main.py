@@ -612,6 +612,20 @@ async def analyze_conversation(body: ChatRequest):
     return data
 
 
+@app.get("/")
+async def root():
+    """Friendly landing for the API root (so visiting the base URL isn't a bare 404)."""
+    return {
+        "service": "Bellshire Homes — Voice Assistant API",
+        "status": "ok",
+        "docs": "/docs",
+        "endpoints": [
+            "/health", "/session", "/sdp", "/chat", "/extract", "/analyze",
+            "/property", "/property/{id}/tour", "/conversation/save",
+        ],
+    }
+
+
 @app.get("/health")
 async def health():
     return {"status": "ok"}
